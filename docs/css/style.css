@@ -1,0 +1,58 @@
+/* 标题样式 */
+h1 {
+    color: #333; /* 文字颜色 */
+    font-size: 36px; /* 字体大小 */
+    text-align: center; /* 文字居中 */
+    text-decoration: underline; /* 添加下划线 */
+}
+
+/* 二级标题样式 */
+h2 {
+    color: #666; /* 文字颜色 */
+    font-size: 24px; /* 字体大小 */
+    margin-left: 20px; /* 左边距 */
+}
+
+/* 三级标题样式 */
+h3 {
+    color: #999; /* 文字颜色 */
+    font-size: 18px; /* 字体大小 */
+    font-style: italic; /* 斜体 */
+    margin-left: 30px; /* 左边距 */
+}
+
+/* 按钮样式 */
+button {
+    padding: 10px 20px; /* 按钮内边距 */
+    font-size: 16px; /* 字体大小 */
+    background-color: #007bff; /* 背景颜色 */
+    color: #fff; /* 文字颜色 */
+    border: none; /* 去除边框 */
+    border-radius: 5px; /* 圆角 */
+    cursor: pointer; /* 鼠标指针样式 */
+    margin: 5px; /* 按钮之间的间距 */
+}
+
+/* 按钮悬停时的样式 */
+button:hover {
+    background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+}
+
+/* 按钮点击后的样式 */
+button:active {
+    background-color: #004080; /* 点击后的背景颜色 */
+}
+
+/* 视频样式 */
+#camera {
+    width: 320px; /* 设置视频宽度 */
+    height: 240px; /* 设置视频高度 */
+    border: 2px solid #ccc; /* 添加边框 */
+    border-radius: 5px; /* 添加边框圆角 */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+}
+
+/* 视频悬停时改变边框颜色 */
+#camera:hover {
+    border-color: #666;
+}
